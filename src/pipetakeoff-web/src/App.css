@@ -1,0 +1,12 @@
+/* Minimal App styles - most styling is via Tailwind */
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure footer stays at bottom */
+main {
+  flex: 1;
+}
